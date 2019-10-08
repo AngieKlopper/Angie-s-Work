@@ -1,0 +1,13 @@
+x=15.987
+
+var k=x
+
+
+var k=Math.floor(x);
+console.log(k);
+
+var k=Math.ceil(x);
+console.log(k);
+
+var k=Math.round(x);
+console.log(k);

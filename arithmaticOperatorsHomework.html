@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<h1> I learned how to do math. </h1>
+</head>
+<body>
+    <p id="num1"></p>
+    <p id="num2"></p>
+    <p id="num3"></p>
+    <p id="x"></p>
+    <p id="y"></p>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+    <p id="inc"></p>
+    <p id="dec"></p>
+    <p id="mod"></p>
+    <script src="angieVariables.js"></script>
+    <script>
+    document.getElementById("add").innerHTML= "addition = "+(x+y);
+    document.getElementById("sub").innerHTML= "subtraction ="+(x-y);
+    document.getElementById("mul").innerHTML= "multiplication ="+(y*num1);
+    document.getElementById("div").innerHTML= "division ="+(num2/num1);
+    document.getElementById("inc").innerHTML= "increment ="+(++y);
+    document.getElementById("dec").innerHTML= "decrement ="+(--x);
+    document.getElementById("mod").innerHTML= "moduleus ="+(num3%num2);
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+var candy={favorite:"3 Musketeers", cost:"1.50"}
+var cars={Hotrod:"GTO", Benscar:"TransAm", Bestvehicle:"Truck"}
+var family={son:"Tyler", daughter="Brittany", Husband:"Ben"}
+
+console.log(candy.favorite);
+console.log(cars.Hotrod);
+console.log(family.son);
